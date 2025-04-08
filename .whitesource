@@ -1,22 +1,7 @@
 {
-  "apiKey": "YOUR_API_KEY",
-  "projectToken": "YOUR_PROJECT_TOKEN",
-  "product": "YOUR_PRODUCT_NAME",
-  "team": "YOUR_TEAM_NAME",
-  "whitesourceBaseUrl": "https://saas.whitesource.com", 
-  "dependencyManager": "npm",
-  "scanSettings": {
-    "baseBranches": ["main", "develop"]
-  },
-  "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
-    "displayMode": "diff"
-  },
-  "issueSettings": {
-    "minSeverityLevel": "LOW"
-  },
-  "build": {
-    "buildTool": "npm",
-    "buildCommand": "npm install"
+  "failBuildOnSeverity": "HIGH",
+  "licensePolicy": {
+    "allow": ["MIT", "Apache-2.0"],
+    "deny": ["GPL-3.0"]
   }
 }
