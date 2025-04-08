@@ -1,7 +1,0 @@
-{
-  "failBuildOnSeverity": "HIGH",
-  "licensePolicy": {
-    "allow": ["MIT", "Apache-2.0"],
-    "deny": ["GPL-3.0"]
-  }
-}
